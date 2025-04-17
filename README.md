@@ -40,3 +40,20 @@ A simple and configurable rate limiter microservice built with Java and Spring B
 curl -X POST http://localhost:8080/api/check \
   -H "Content-Type: application/json" \
   -d '{"userId": "adil123"}'
+
+🧱 Coming Soon
+Redis-backed request tracking (for horizontal scaling)
+
+JWT-based user authentication
+
+Configurable via application.properties or environment variables
+
+Cloud deployment (Docker + Fly.io or Render)
+
+📄 License
+MIT License
+
+✍️ Author
+Adil G.
+www.linkedin.com/in/adilgeilani
+adilgeilani@gmail.com
